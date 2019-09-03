@@ -1,0 +1,7 @@
+<!--pages/arreas/aa.wxml-->
+<view class="content">
+<view class='top'>
+<icon class="iconfont icon-zhengque"></icon></view>
+<view class='body'>{{arrea}}</view>
+<view class='foot'>{{good}}</view>
+</view>

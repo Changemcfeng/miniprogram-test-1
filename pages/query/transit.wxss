@@ -1,0 +1,4 @@
+/* pages/query/transit.wxss */
+.top{
+  width: 100%;
+}

@@ -1,0 +1,54 @@
+/* pages/wxqrcode/demo1.wxss */
+page{
+	height:100%;
+  background:linear-gradient(to top,#6f6fb1,#3a74da) ;
+}
+text {
+	text-align: center;
+}
+.qrcode {
+  width: 278rpx;
+  height: 278rpx;
+  display: flex;
+  margin: 0 auto;  
+}
+.container{
+  padding: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head{
+  width: 600rpx;
+  height: 600rpx;
+  display: flex;
+  background: white;
+  justify-content: center;
+}
+.hehe{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.cont{
+  display: flex;
+}
+.flu{
+  padding-top: 10%;
+  font-size: 50%;
+}
+.flu1{
+  font-size: 50%;
+  color: #0044BB ;
+  padding-top: 10%;
+}
+.flu2{
+  font-size: 50%;
+  padding-top: 10%;
+}
+.icon-refresh{
+  margin-top: 5%;
+  padding-right: 1%;
+  zoom: 0.7;
+}
+/* hr{ clear: both; height: 0; display: block; border-top:1rpx solid #eee; margin: 20rpx 0;} */

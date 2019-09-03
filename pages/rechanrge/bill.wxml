@@ -1,0 +1,77 @@
+<!--pages/rechanrge/bill.wxml-->
+<view class="content">
+<view class="center">
+<view class="forword">
+<icon class="iconfont icon-shouji"></icon>
+</view>
+<view class="section" class="phone">
+<input  placeholder='请输入手机号' maxlength="11" type="tel" bindinput="getInput" placeholder-style='font-size:25px;color:cadetblue' class="inputa"/>
+</view>
+</view>
+</view>
+<view class="make">充话费</view>
+<view class='fivetop'>
+<view class='five'>
+<view class='hund' wx:for="{{bill}}" wx:key='dad'>
+<view class='hund1'>
+<view class='fity'>
+<view class='art'>{{item.ar}}         
+</view>
+</view>
+<view class='fity1'>
+<view class='brt'>{{item.br}}         
+</view>
+</view>
+<view class='fity2'><view>{{item.cr}}</view></view>
+</view>
+</view>
+</view>
+</view>
+<view class="make1">
+<view>广东专享</view>
+<view><view class='hui'>{{tei}}</view></view>
+</view>
+<view class='fivetop'>
+<view class='five'>
+<view class='hund' wx:for="{{billa}}" wx:key='dadq'>
+<view class='hund1'>
+<view class='fity'>
+<view class='art'>{{item.ar}}         
+</view>
+</view>
+<view class='fity1'>
+<view class='brt'>{{item.br}}         
+</view>
+</view>
+<view class='fity2'><view>{{item.cr}}</view></view>
+</view>
+</view>
+</view>
+</view>
+<view class="make">特惠流量包</view>
+<view class='fivetopq'>
+<view class='five'>
+<view class='hund' wx:for="{{thoungh}}" wx:key='dady'>
+<view class='hund1'>
+<view class='fity'>
+<view class='art'>{{item.ar}}         
+</view>
+</view>
+<view class='fity1'>
+<view class='brt'>{{item.br}}         
+</view>
+</view>
+<view class='fity2'><view>{{item.cr}}</view></view>
+</view>
+</view>
+</view>
+</view>
+
+<view class="foot">
+<view class="footer">
+<view class="foot1"><view>优惠券 | 充值记录 | 联系客服</view></view>
+<view class="foot2"><view>该充值服务由广州虹藤科技有限公司提供</view></view>
+</view>
+</view>
+
+

@@ -1,0 +1,153 @@
+/* pages/rechanrge/bill.wxss */
+page{
+  height: 100%;
+}
+.phone{
+ flex-basis: 90%;
+ height: 100%;
+ display: flex; 
+}
+.inputa{
+  display: flex;
+  flex-basis: 100%;
+  height: 100%;
+
+}
+.forword{
+   flex-basis: 8%;
+   display: flex;
+   padding-left: 8%;
+}
+.icon-shouji{
+  color: cornflowerblue;
+  margin-top: -21%;
+  zoom: 2;
+}
+.center{
+  flex-basis: 95%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(247, 242, 242);
+  height:50px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+.make{
+  padding-top: 4%;
+  padding-left: 3.3%;
+  font-size: 90%;
+  color: #444444;
+}
+.five{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;  
+}
+.hund{ 
+  flex-basis: 33.333%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  /* border: 2px solid cornflowerblue;
+  border-radius: 10%; */
+}
+.hund1{
+  width: 80%;
+  border: 2px solid cornflowerblue;
+  border-radius: 10%;
+  margin: 10%;
+  padding: 10%;
+  height: 45%;
+}
+.fity{
+  flex-basis: 80%;
+  display: flex;
+  justify-content: center;
+}
+.fity1{
+  flex-basis: 80%;
+  display: flex;
+  justify-content: center;
+}
+.fity2{
+  flex-basis: 80%;
+  display: flex;
+  justify-content: center;
+}
+.brt{
+  font-size: 55%;
+  color: #00FFFF; 
+}
+.art{
+  font-size: 110%;
+  color: #003C9D ;
+}
+.fivetop{
+  display: flex;
+  justify-content: center;
+}
+.make1{
+  display: flex;
+  padding-top: 4%;
+  padding-left: 3.3%;
+  font-size: 90%;
+  color: #444444;
+}
+.make1 :last-child{
+  flex-basis: 25%;
+  padding-top: 1%;
+  padding-left: 3.3%;
+
+}
+.hui{
+  font-size: 70%;
+  color: #AA0000;
+  background-color: #FFA488 ;
+  border-radius: 33%;
+  text-align: center;
+}
+.fity2{
+  font-size: 50%;
+  color: #666666;
+}
+.five :nth-of-type(8) > .hund1 {
+  border-color: #666666;
+  
+}
+.five :nth-of-type(8) > .hund1 :first-child{
+  color: #666666;
+}
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.foot1{
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  color: #666666;
+}
+.foot2{
+  flex-basis: 100%;
+  font-size: 70%;
+  color: rgb(201, 197, 197);
+   display: flex;
+  justify-content: center;
+  padding-bottom: 2%;
+
+}
+.foot{
+ position: fixed;
+ bottom: 0;
+ z-index: -20;
+}
+.fivetopq{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 13%;
+}

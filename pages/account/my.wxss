@@ -1,0 +1,54 @@
+/* pages/goods/good.wxss */
+.head{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+.body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-top: 7px solid rgb(247, 242, 242);
+ 
+}
+.detail{
+  flex-basis: 80%;
+  padding-top:4%;
+  padding-bottom:4%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 2px solid  rgb(247, 242, 242);
+}
+.key{
+  font-size: 18px;
+  padding-top: 4px;
+}
+.attribute{
+  font-size: 18px;
+}
+.detail1{
+  flex-basis: 80%;
+  padding-top:4%;
+  padding-bottom:4%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 2px solid  rgb(247, 242, 242);
+  
+}
+.add{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-top: 7px solid rgb(247, 242, 242)
+}
+.body :last-child{
+  border-bottom: 0px;
+}
+/* .body :nth-of-type(3){
+  background-color: green;
+} */
+

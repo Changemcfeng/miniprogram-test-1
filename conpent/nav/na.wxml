@@ -1,0 +1,44 @@
+<!--conpent/nav/na.wxml-->
+<view class='nava_top_cont_tab1' wx:if="{{navbarData.show_color_id==1}}">
+  <!-- 标题 -->
+  <view class='navbar_title' style='line-height:120rpx;' bindtap='btn_back'>
+  <!-- left--ICON -->
+  <label class='left_icon_view' wx:if='{{navbarData.show_back}}' >
+    <image  src='../../image/record/left.png' mode='aspectFill' class='back_icon'></image>
+  </label>
+    <label class='title'>{{navbarData.title}}</label>
+  </view>
+</view>
+<!-- 灰色背景 -->
+<view class='nava_top_cont_tab2' wx:if="{{navbarData.show_color_id==2}}">
+  <!-- 标题 -->
+  <view class='navbar_title' style='line-height:120rpx;'  bindtap='btn_back'>
+  <!-- left--ICON -->
+  <label class='left_icon_view' wx:if='{{navbarData.show_back}}' >
+    <image src='../../image/record/left.png' mode='aspectFill' class='back_icon'></image>
+  </label>
+    <label class='title'>{{navbarData.title}}</label>
+  </view>
+</view>
+<!-- 黄色色背景 -->
+<view class='nava_top_cont_tab3' wx:if="{{navbarData.show_color_id==3}}">
+  <!-- 标题 -->
+  <view class='navbar_title' style='line-height:120rpx;' >
+  <!-- left--ICON -->
+  <label class='left_icon_view' wx:if='{{navbarData.show_back}}' >
+    <image  src='../../image/record/left.png' mode='aspectFill' class='back_icon'></image>
+  </label>
+    <label class='title'>{{navbarData.title}}</label>
+  </view>
+</view>
+<!-- 灰色背景 -->
+<view class='nava_top_cont_tab2' wx:if="{{navbarData.show_color_id==4}}" >
+  <!-- 标题 -->
+  <view class='navbar_title' style='line-height:120rpx;' bindtap='btn_index'>
+  <!-- left--ICON -->
+  <label class='left_icon_view' wx:if='{{navbarData.show_back}}' >
+    <image  src='../../image/record/left.png' mode='aspectFill' class='back_icon'></image>
+  </label>
+    <label class='title'>{{navbarData.title}}</label>
+  </view>
+</view>

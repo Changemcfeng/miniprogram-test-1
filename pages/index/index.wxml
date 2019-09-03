@@ -1,0 +1,39 @@
+<!--index.wxml-->
+
+<swiper indicator-dots="{{indicatorDots}}"
+autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+<block wx:for="{{imgUrls}}"  wx:key="imgu">
+<swiper-item>
+<image src="{{item}}" class="slide-image" style='width:100%'/>
+</swiper-item>
+</block>
+</swiper>
+<cover-view class="dall" style=''>
+<cover-view class="dal">
+<cover-view wx:for="{{iconUrl}}" class='da' wx:key="icon" wx:for-index="idx">
+<cover-view class="dao">
+<cover-view class="dao1">
+<cover-view class="dao3" bindtap='indexto' >
+<cover-image src='{{item.at}}' class="imgh" id="imgh{{idx}}" data-id="{{idx}}"></cover-image>
+</cover-view>
+</cover-view>
+<cover-view class="dao2">
+<cover-view class="dao4">{{item.bt}}</cover-view>
+</cover-view>
+</cover-view>
+</cover-view>
+</cover-view>
+</cover-view>
+<view class="sw">
+<view class="sweepCode" bindtap='sweepq'>
+<view class='sweep'>
+<image src='{{sweepcode}}'class="sweepimg"></image>
+</view>
+<view class="nice">
+<text >扫码乘车</text>
+</view>
+</view>
+</view>
+
+
+

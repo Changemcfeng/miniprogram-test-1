@@ -1,0 +1,20 @@
+<!--pages/query/transit.wxml-->
+<view class="content">
+<image src='{{imgurl}}' class="top" style="height:{{height}}"></image>
+</view>
+<icon class="iconfont icon-qinziAPPtubiao"></icon>
+<!-- <view class="aaa"> 
+  <input placeholder="请输入ip" auto-focus confirm-type="send" name="user"
+  bindinput ="userInput"/>
+  <button type="default" size="20px" disabled="{{disabled}}" bindtap="jisu"> 提交 </button>
+</view>
+
+<view>{{area}}</view>
+<view>{{city}}</view>
+<view>{{country}}</view>
+<view>{{ip}}</view>
+<view>{{province}}</view>
+<view>{{type}}</view> -->
+
+
+

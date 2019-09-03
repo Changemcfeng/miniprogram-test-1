@@ -1,0 +1,17 @@
+<!--pages/goods/good.wxml-->
+<cover-view class="head">
+<cover-image src="{{traffic}}" style="width: {{imagewidth}}px; height: {{imageheight}}px;"      bindload="imageLoad"></cover-image>
+</cover-view>
+<view class="body">
+  <view class="detail" wx:for="{{status}}" wx:key="stt">
+    <view class="key">{{item.st}}</view>
+    <view class="attribute">{{item.at}}</view>
+  </view>
+</view>
+<view class="add">
+  <view class="detail1" >
+    <view class="key">暂停服务</view>
+    <view class="attribute"><icon 
+    class='iconfont icon-iconfont-right'></icon></view>
+  </view>
+</view>

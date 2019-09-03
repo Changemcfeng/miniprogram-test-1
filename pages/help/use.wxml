@@ -1,0 +1,9 @@
+<!--pages/help/use.wxml-->
+<view class='content'>
+<view class='question' wx:for="{{ddo}}" wx:key="ddop">
+<view class='work'>{{item}}</view>
+<view class='run'>
+<icon class='iconfont icon-iconfont-right'></icon>
+</view>
+</view>
+</view>

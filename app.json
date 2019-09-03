@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/account/my",
+    "pages/arreas/aa",
+    "pages/recodes/recode",
+    "pages/help/use",
+    "pages/query/transit",
+    "pages/rechanrge/bill",
+    "pages/sweep/bus"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EE7700",
+    "navigationBarTitleText": "羊城通",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

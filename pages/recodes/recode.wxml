@@ -1,0 +1,17 @@
+<!--pages/recodes/recode.wxml-->
+<view class='container'>
+
+<view class='body' wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="aa" wx:key="bb">
+   <view class='money'>
+      <view class="mon">{{mon}}</view>
+      <view class="mon1">{{mon1}}</view>
+   </view>
+  <view wx:for="{{rec}}" wx:for-item="bb" wx:key="da" class="reco">
+   <view class='type'>
+      <view class="ty">{{bb.am}}</view>
+      <view class="te">{{bb.bm}}</view>
+   </view>
+  </view>
+</view>
+
+</view>

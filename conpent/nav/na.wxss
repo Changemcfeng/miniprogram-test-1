@@ -1,0 +1,69 @@
+/* conpent/nav/na.wxss */
+.nava_top_cont_tab1 {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 135rpx;
+  text-align: left;
+  line-height: 135rpx;
+  background: #fff;
+  color: #000;
+  z-index: 999;
+}
+.nava_top_cont_tab2 {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 135rpx;
+  text-align: left;
+  line-height: 135rpx;
+  background: #E5E5E5;
+  color: #000;
+  z-index: 999;
+}
+.nava_top_cont_tab3{
+    position: fixed;
+  width: 100%;
+  top: 0;
+  height: 135rpx;
+  text-align: left;
+  line-height: 135rpx;
+background:linear-gradient(0deg,rgba(255,210,0,1) 0%,rgba(255,228,0,1) 100%);
+  color: #000;
+  z-index: 999;
+}
+ 
+/* 标题 */
+.navbar_title {
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  top: 15%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 36rpx;
+  color: #2c2b2b;
+}
+/* 避免用户点击区域太小增加区域杨氏 */
+.left_icon_view{
+width: 70rpx;
+position: absolute;
+height: 100rpx;
+line-height: 100rpx;
+}
+/* 标题 */
+.title {
+  padding-left: 10%;
+}
+/* 返回按钮 */
+.back_icon {
+position:absolute;
+left:30rpx;
+display:inline-block;
+width:20rpx;
+height:37rpx;
+top:42%;
+}
